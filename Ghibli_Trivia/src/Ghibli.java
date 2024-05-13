@@ -1,11 +1,7 @@
 //Import Library
 import javax.swing.JOptionPane;
 
-
-
 public class Ghibli {
-
-
 
 // user begins game with 0 points
     static int points = 0;
@@ -31,11 +27,6 @@ public class Ghibli {
     }
 
 
-
-
-
-
-
 // question 1
     public static void question1() {
         String answer = JOptionPane.showInputDialog("Question 1 of 10:\n" +
@@ -49,11 +40,6 @@ public class Ghibli {
                     case "B", "b" -> points++;
                     }
                     }
-
-
-
-
-
 
 
 // question 2
@@ -71,11 +57,6 @@ public class Ghibli {
                     }
 
 
-
-
-
-
-
 // question 3
     public static void question3() {
         String answer =  JOptionPane.showInputDialog("Question 3 of 10:\n" +
@@ -89,9 +70,6 @@ public class Ghibli {
                     case "D", "d" -> points++;
                     }
                     }
-
-
-
 
 
 // question 4
@@ -109,11 +87,6 @@ public class Ghibli {
                     }
 
 
-
-
-
-
-
 // question 5
     public static void question5() {
         String answer =  JOptionPane.showInputDialog("Question 5 of 10:\n" +
@@ -127,10 +100,6 @@ public class Ghibli {
                     case "B", "b" -> points++;
                     }
                     }
-
-
-
-
 
 
 // question 6
@@ -149,11 +118,6 @@ public class Ghibli {
                     }
 
 
-
-
-
-
-
 // question 7
     public static void question7() {
         String answer = JOptionPane.showInputDialog("Question 7 of 10:\n" +
@@ -167,11 +131,6 @@ public class Ghibli {
                     case "D", "d" -> points++;
                     }
                     }
-
-
-
-
-
 
 
 // question 8
@@ -189,11 +148,6 @@ public class Ghibli {
                     }
 
 
-
-
-
-
-
 // question 9
     public static void question9() {
         String answer = JOptionPane.showInputDialog("Question 9 of 10:\n" +
@@ -209,9 +163,6 @@ public class Ghibli {
                     }
 
 
-
-
-
 // question 10
     public static void question10() {
         String answer = JOptionPane.showInputDialog("Question 10 of 10:\n" +
@@ -225,10 +176,6 @@ public class Ghibli {
                     case "B", "b" -> points++;
                     }
                     }
-
-
-
-
 
 
 
@@ -250,7 +197,4 @@ public class Ghibli {
     }
 
 
-
-
 }
-
